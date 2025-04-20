@@ -1,0 +1,228 @@
+    1  apt update && apt upgrade -y
+    2  apt install falcon -y
+    3  apt install falkon -y
+    4  apt install mousepad -y
+    5  apt install geany -y
+    6  apt install vlc -y
+    7  apt purge firefox firefox-locale-* -y
+    8  apt purge libreoffice* -y
+    9  apt autoremove --purge -y
+   10  apt clean
+   11  apt list --instaled
+   12  apt list --installed
+   13  df -h
+   14  nano ~/.config/lxqt/panel.conf
+   15  nano /etc/xdg/lxqt/panel.conf
+   16  find /etc/xdg -name "*firefox.desktop"
+   17  mkdir -p /etc/xdg/lxqt
+   18  nano /etc/xdg/lxqt/panel.conf
+   19  nano /etc/apt/source.list
+   20  apt update
+   21  which firefox
+   22  apt apt purge firefox firefox-locale-* -y
+   23  apt purge firefox firefox-locale-* -y
+   24  rm /usr/share/applications/firefox.desktop
+   25  which firefox
+   26  snap remove firefox
+   27  apt purge snapd -v
+   28  rm -rf /snap
+   29  rm -rf /var/snap
+   30  rm -rf /var/lib/snapd
+   31  rm -rf /var/cache/snapd
+   32  rm -rf /run/snapd
+   33  rm -rf ~/snap
+   34  rm -f /snap/bin/firefox
+   35  which firefox
+   36  hash -r
+   37  nano /etc/xdg/lxqt/panel.conf
+   38  nano /etc/skel/.config/lxqt/panel.conf
+   39  find /etc/xdg/lxqt/ -type f -name "*.conf" | xargs grep -i firefox
+   40  find /etc/skel/.config/lxqt/ -type f -name "*.conf" | xargs grep -i firefox
+   41  /etc/skel/.config/lxqt/panel.conf
+   42  mkdir -p /etc/skel/.config/lxqt
+   43  nano /etc/skel/.config/lxqt/panel.conf
+   44  /usr/share/applications/falkon.desktop
+   45  nano /usr/share/applications/falkon.desktop
+   46  /home/lubuntu/
+   47  mkdir -p /home/lubuntu/.config/lxqt
+   48  cp /etc/skel/.config/lxqt/panel.conf /home/lubuntu/.config/lxqt/panel.conf
+   49  chown -R lubuntu:lubuntu /home/lubuntu/.config
+   50  /usr/share/lxqt/panel.d/
+   51  grep -Ri firefox /usr/share/lxqt/panel.d/
+   52  ls /usr/share/applications/falkon.desktop
+   53  apt autoremove --purge -y
+   54  apt clean
+   55  rm -rf /var/lib/apt/lists/*
+   56  grep -Ri firefox /etc /usr /home /root
+   57  rm -f /usr/share/applications/firefox.desktop
+   58  rm -f /snap/bin/firefox
+   59  which office
+   60  which libreoffice
+   61  apt install git -y
+   62  cd /opt
+   63  git clone https://github.com/MoyseSac/infodistro.git
+   64  mkdir -p /usr/share/backgrounds
+   65  cd --
+   66  cp /opt/infodistro/Images/wallp-xela.png /usr/share/backgrounds/desk-wallp.png
+   67  nano /etc/skel/.config/pcmanfm-qt/lxqt/desktop.conf
+   68  mkdir -p /etc/skel/.config/pcmanfm-qt/lxqt
+   69  touch /etc/skel/.config/pcmanfm-qt/lxqt/desktop.conf
+   70  nano /etc/skel/.config/pcmanfm-qt/lxqt/desktop.conf
+   71  nano /etc/profile.d/set-wallpaper.sh
+   72  chmod +x /etc/profile.d/set-wallpaper.sh
+   73  mkdir -p /usr/local/bin
+   74  nano /usr/local/bin/set-wallpaper.sh
+   75  chmod +x /usr/local/bin/set-wallpaper.sh
+   76  mkdir -p /etc/skel/.config/autostart
+   77  nano /etc/skel/.config/autostart/set-wallpaper.desktop
+   78  mkdir -p /home/lubuntu/.config/autostart
+   79  cp /etc/skel/.config/autostart/set-wallpaper.desktop /home/lubuntu/.config/autostart/
+   80  chown -R lubuntu:lubuntu /home/lubuntu/.config/autostart
+   81  /usr/local/bin/set-wallpaper.sh
+   82  nano /usr/local/bin/set-wallpaper.sh
+   83  ls /usr/share/backgrounds/desk-wallp.png
+   84  nano /usr/local/bin/set-wallpaper.sh
+   85  chmod +x /usr/local/bin/set-wallpaper.sh
+   86  nano /etc/xdg/lxqt/session.conf
+   87  ls /usr/share/backgrounds/peppa-wallpaper.png
+   88  ls /usr/share/backgrounds/desk-wallp.png
+   89  cat /etc/X11/default-display-manager
+   90  cd /usr/share/backgrounds
+   91  cd --
+   92  cp /opt/infodistro/Images/goat.png  /usr/share/backgrounds/
+   93  nano /etc/sddm.conf
+   94  nano /usr/share/sddm/themes/lxqt/theme.conf
+   95  cat /etc/sddm.conf
+   96  grep -i current /usr/lib/sddm/sddm.conf.d/*
+   97  cat /usr/lib/sddm/sddm.conf.d/default.conf
+   98  ls /usr/share/sddm/themes/
+   99  nano /etc/sddm.conf
+  100  ls /usr/share/backgrounds/goat.png
+  101  nano /usr/share/sddm/themes/lubuntu/theme.conf
+  102  ls /usr/share/sddm/themes/lubuntu.Main.qml
+  103  nano /etc/sddm.conf
+  104  nano /usr/share/sddm/themes/lubuntu/theme.conf
+  105  ls -lh /usr/share/backgrounds
+  106  nano /usr/share/sddm/themes/lubuntu/Main.qml
+  107  mkdir -p /etc/skel/.local/share/backgrounds/
+  108  cp /usr/share/backgrounds/goat.png /etc/skel/.local/share/backgrounds/
+  109  sudo chmod 644 /usr/share/backgrounds/goat.png
+  110  cp /usr/share/backgrounds/goat.png /etc/skel/.local/share/backgrounds/
+  111  nano /usr/share/sddm/themes/lubuntu/Main.qml
+  112  /usr/share/sddm/themes/lubuntu/fallback.png
+  113  /usr/share/backgrounds/goat.png
+  114  cd /usr/share/backgrounds/
+  115  ls
+  116  cd /usr/share/sddm/themes/lubuntu/
+  117  ls
+  118  cd --
+  119  nano /usr/share/sddm/themes/lubuntu/Main.qml
+  120  cd /usr/share/calamares/branding/lubuntu
+  121  cd /etc/calamares/branding
+  122  ls
+  123  cd lubuntu
+  124  ls
+  125  nano show.qml
+  126  cd..
+  127  cd .
+  128  cd ..
+  129  ls
+  130  cd branding
+  131  ls
+  132  cd lubuntu
+  133  ls
+  134  cd ..
+  135  ls
+  136  cd modules
+  137  ls
+  138  cd..
+  139  cd ..
+  140  ls
+  141  nano settings.conf
+  142  cd --
+  143  cd distroinfo
+  144  cd infodistro
+  145  ls
+  146  cd /opt/infodistro
+  147  git pull origin main
+  148  ping github.com
+  149  ~ping github.com
+  150  ping github.com
+  151  cp /etc/resolv.conf /run/cubic/mount/etc/resolv.conf
+  152  git pull origin main
+  153  cd --
+  154  cd /opt/infodistro
+  155  cd Images
+  156  ls
+  157  cp inst-wallp.jpg /usr/share/backgrounds/
+  158  cd --
+  159  cp /usr/share/backgrounds/inst-wallp.jpg /etc/calamares/branding/lubuntu/background.jpg
+  160  nano /etc/calamares/branding/lubuntu/branding.desc
+  161  /etc/calamares/branding/lubuntu/welcome.qml
+  162  cd /etc/calamares/branding/lubuntu/
+  163  ls
+  164  nano show.qml
+  165  cd --
+  166  ls /etc/xdg/autostart/
+  167  cd /etc/xdg/autostart/
+  168  ls
+  169  nano /etc/skel/.bashrc
+  170  nano /home/lubuntu/.bashrc
+  171  cd --
+  172  ls /etc/profile.d/
+  173  nano /etc/profile.d/set-wallpaper.sh
+  174  grep -Ri calamares /etc/ 2>/dev/null
+  175  ls -la /home/
+  176  ls -la /home/lubuntu/.config/lxsession/Lubuntu/
+  177  [200~ls /home/lubuntu/.config/autostart/
+  178  ls /home/lubuntu/.config/autostart/
+  179  cat /usr/share/xsessions/*.desktop
+  180  /usr/share/xsessions/lubuntu-live.desktop
+  181  /usr/libexec/start-lubuntu-live-env
+  182  nano /usr/libexec/start-lubuntu-live-env
+  183  which lubuntu-installer-prompt
+  184  nano /usr/bin/lubuntu-installer-prompt
+  185  cd /opt
+  186  ls
+  187  mkdir -p comms
+  188  ls
+  189  cd comms
+  190  git init
+  191  git config --global init.defaultBraunch <main>
+  192  git config --global init.defaultBraunch main
+  193  git config --global init.defaultBranch main
+  194  cp /usr/bin/lubuntu-installer.prompt /opt/comms
+  195  cp /usr/bin/lubuntu-installer-prompt /opt/comms
+  196  git add lubuntu-installer-prompt
+  197  git commit -m "prompt lubuntu"
+  198  git config --global user.email "moisessac@umes.edu.gt"
+  199  git config --global user.name "moi"
+  200  git commit -m "prompt lubuntu"
+  201  git renote add origin https://github.com/MoyseSac/comms
+  202  git remote add origin https://github.com/MoyseSac/comms
+  203  git push -u origin main
+  204  git remote add origin https://github.com/MoyseSac/comms.git
+  205  git push -u origin main
+  206  git status
+  207  git branch -M main
+  208  git push -u origin main
+  209  nano /usr/bin/lubuntu-installer-prompt
+  210  cd --
+  211  mv /usr/bin/lubuntu-installer-prompt /usr/bin/lubuntu-installer-prompt.original
+  212  nano /usr/bin/lubuntu-installer-prompt
+  213  nano /usr/bin/lubuntu-installer-prompt.original
+  214  nano /usr/bin/lubuntu-installer-prompt
+  215  chmod +x /usr/bin/lubuntu-installer-prompt
+  216  ls -l /usr/bin/lubuntu-installer-prompt*
+  217  apt update
+  218  apt install -y zenity
+  219  apt clean
+  220  rm -rf /var/lib/apt/lists/*
+  221  ls -l /usr/bin/lubuntu-installer-prompt
+  222  which zenity
+  223  nano /usr/bin/lubuntu-installer-prompt
+  224  nano /etc/default/grub
+  225  nano /etc/os-release
+  226  update-grub
+  227  nano /etc/os-release
+  228  history
